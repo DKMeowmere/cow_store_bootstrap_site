@@ -1,0 +1,15 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.radio-green:checked {
+  background-color: #008000;
+  accent-color: #008000;
+  border-color: #008000;
+}
+
+.accordion-button::after {
+  -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(105deg) brightness(104%) contrast(101%);
+          filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(105deg) brightness(104%) contrast(101%);
+}/*# sourceMappingURL=style.css.map */

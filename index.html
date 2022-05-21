@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Krowa</title>
+
+		<!-- ? Bootstrap -->
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+		<script defer src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<!-- ? custom css -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body class="bg-dark">
+		<header>
+			<nav class="navbar navbar-expand-lg bg-dark border mb-5 position-fixed fixed-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#home"><i class="bi bi-house text-light"></i></a>
+					<button
+						class="navbar-toggler border-0 text-light"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNavDropdown"
+						aria-controls="navbarNavDropdown"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="bi bi-list h1 text-light"></i>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link text-light active" aria-current="page" href="#home">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-light" href="#gallery">Galeria</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-light" href="#buy">Kup krowe</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-light" href="#why-cow">Dlaczego krowa?</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section id="home" class="p-5">
+				<div class="container-lg p-5 my-3">
+					<div class="row justify-content-center align-middle">
+						<div class="col-12 text-light mb-5 text-center fw-bold">
+							<p class="display-1">Krowa domowa</p>
+						</div>
+						<div class="col-lg-7 text-light text-center text-lg-end">
+							Bydło domowe występuje na wszystkich kontynentach z wyjątkiem Antarktydy. Jednak jego
+							rozmieszczenie nie jest równomierne. Najwięcej sztuk bydła na kilometr kwadratowy (>250
+							szt.) przypada w przeważającej części Indii, w centralnej części Brazylii, w USA w północnej
+							części stanu Teksas oraz w zachodniej części stanu Kalifornia, w Chinach na Nizinie
+							Chińskiej, na Wyspach Brytyjskich, w północnej części Francji, Niemiec oraz Włoch. Krajami
+							przodującymi w hodowli bydła są: Brazylia, Indie, USA, Chiny, Argentyna, w tym kraje
+							południowo- i północnoamerykańskie są potentatami w hodowli bydła mięsnego, jest to
+							spowodowane korzystnymi warunkami przyrodniczymi tj. ogromne tereny trawiaste (prerie,
+							pampy). Indie (z powodów religijnych wyznawcy hinduizmu nie spożywają mięsa krowiego)
+							przodują w hodowli bydła mlecznego, wykorzystują je także do produkcji naturalnego nawozu,
+							jak i siły pociągowej. Europa zachodnia (Wielka Brytania, Francja, Niemcy, Holandia) z
+							powodu dużej gęstości zaludnienia oraz pozycji ekonomicznej, a co za tym idzie
+							zapotrzebowania na mleko i wołowinę także stała się regionem dominującym w hodowli bydła.
+						</div>
+						<img
+							class="col-lg-5 img-fluid rounded p-0 border border-light"
+							src="img/krowa.jpg"
+							alt="random image"
+						/>
+					</div>
+				</div>
+			</section>
+			<section id="gallery" class="pt-5">
+				<div class="container mt-5">
+					<div class="display-1 text-light text-center"><i class="bi bi-file-image"></i>Galeria</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-3 col-md-6 my-3">
+							<div class="card text-light bg-dark border border-light">
+								<img
+									src="img/krowa-hol-fry.jpg"
+									class="card-img-top"
+									alt="krowa holsztyno-fryzyjska"
+									style="height: 200px"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">krowa holsztyno-fryzyjska</h5>
+									<p class="card-text">
+										Bydło holsztyno-fryzyjskie – rasa bydła hodowlanego wyhodowanego w sposób celowy
+										w jednym kierunku – mlecznym.
+									</p>
+									<a
+										href="https://pl.wikipedia.org/wiki/Holsztyno-fryzyjska_rasa_byd%C5%82a"
+										target="_blank"
+										class="btn btn-success"
+										>Wiki-Krowa holsztyno-fryzyjska</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 my-3">
+							<div class="card text-light bg-dark border border-light">
+								<img
+									src="img/krowa-simentalska.jpg"
+									class="card-img-top"
+									alt="krowa simentalska"
+									style="height: 200px"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">krowa simentalska</h5>
+									<p class="card-text">
+										Simental – szwajcarska rasa bydła typu mięsno-mlecznego, wyhodowana w
+										średniowieczu w dolinach rzek Simme i Saane z bydła miejscowego.
+									</p>
+									<a
+										href="https://pl.wikipedia.org/wiki/Simental"
+										target="_blank"
+										class="btn btn-success"
+										>Wikipedia-Krowa simentalska</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 my-3">
+							<div class="card text-light bg-dark border border-light">
+								<img
+									src="img/charolais.jpg"
+									class="card-img-top"
+									alt="krowa charolais"
+									style="height: 200px"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">krowa charolais</h5>
+									<p class="card-text">
+										Charolaise – francuska rasa bydła domowego pochodząca z Masywu Centralnego.
+										Nazwa rasy pochodzi od krainy Charolais.
+									</p>
+									<a
+										href="https://pl.wikipedia.org/wiki/Charolaise"
+										target="_blank"
+										class="btn btn-success"
+										>Wikipedia-Krowa charolaise</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 my-3">
+							<div class="card text-light bg-dark border border-light">
+								<img
+									src="img/szkocka-wyzynna.jpg"
+									class="card-img-top"
+									alt="krowa szkocka wyżynna"
+									style="height: 200px"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">krowa szkocka wyżynna</h5>
+									<p class="card-text">
+										Szkocka rasa wyżynna (nazwa angielska Highland cattle) – stara szkocka rasa
+										bydła. Rasa została wyhodowana w północnej Szkocji.
+									</p>
+									<a
+										href="https://pl.wikipedia.org/wiki/Szkocka_rasa_wy%C5%BCynna"
+										target="_blank"
+										class="btn btn-success"
+										>Wikipedia-Krowa szkocka wyżynna</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 my-3">
+							<div class="card text-light bg-dark border border-light">
+								<img
+									src="img/limousine.jpg"
+									class="card-img-top"
+									alt="krowa slimousine"
+									style="height: 200px"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">krowa limousine</h5>
+									<p class="card-text">
+										Limousine – francuska mięsna rasa bydła domowego, pochodząca z regionu Limousin
+										o surowym klimacie i skalistym podłożu.
+									</p>
+									<a
+										href="https://pl.wikipedia.org/wiki/Limousine"
+										target="_blank"
+										class="btn btn-success"
+										>Wikipedia-Krowa limousine</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 my-3">
+							<div class="card text-light bg-dark border border-light">
+								<img
+									src="img/czerwona-polska.jpg"
+									class="card-img-top"
+									alt="krowa czerwona polska"
+									style="height: 200px"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">krowa czerwona polska</h5>
+									<p class="card-text">
+										Polska czerwona– polska rasa bydła domowego maści jednolitej czerwonej z rodziny
+										mleczno-mięsnej.Waga: 400-500 kg mleczność: 2700-3000 kg
+									</p>
+									<a
+										href="https://pl.wikipedia.org/wiki/Czerwona_krowa_(polska)"
+										target="_blank"
+										class="btn btn-success"
+										>Wikipedia-Krowa czerwona polska</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 my-3">
+							<div class="card text-light bg-dark border border-light">
+								<img
+									src="img/AngusCattle.jpg"
+									class="card-img-top"
+									alt="krowa Aberdeen angus"
+									style="height: 200px"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">krowa Aberdeen angus</h5>
+									<p class="card-text">
+										Aberdeen angus – szkocka rasa bydła domowego hodowana dla mięsa. Jest to bydło
+										jednomaściste czarne lub czarno-brązowe.
+									</p>
+									<a
+										href="https://pl.wikipedia.org/wiki/Aberdeen_angus"
+										target="_blank"
+										class="btn btn-success"
+										>Wikipedia-Krowa Aberdeen angus</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 my-3">
+							<div class="card text-light bg-dark border border-light">
+								<img
+									src="img/jerseycattle.jpg"
+									class="card-img-top"
+									alt="krowa jersey"
+									style="height: 200px"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">krowa jersey</h5>
+									<p class="card-text">
+										Jersey– rasa bydła typu mlecznego wyhodowana na wyspie Jersey.Ze względu na
+										200-letnią izolację rasa jest bardzo ujednolicona genetycznie.
+									</p>
+									<a
+										href="https://pl.wikipedia.org/wiki/Jersey_(rasa_byd%C5%82a)"
+										target="_blank"
+										class="btn btn-success"
+										>Wikipedia-Krowa jersey</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col m-3">
+							<div class="alert alert-success" role="alert">
+								W okresie tysięcy lat hodowli wykształciło się wiele ras dostosowanych do lokalnych
+								warunków i przystosowanych do różnych sposobów użytkowania.
+								<a
+									href="https://pl.wikipedia.org/wiki/Lista_ras_byd%C5%82a_hodowlanego"
+									target="_blank"
+									class="btn btn-success"
+									>Wiecej ras tutaj!</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="buy">
+				<div class="container-lg p-5 my-3">
+					<div class="display-2 text-light text-center">Kup krowe</div>
+					<div class="border-light">
+						<div class="row justify-content-center">
+							<h2 class="text-light text-center mt-2">
+								Wprowadź swoje dane, a my się z tobą skontaktujemy
+							</h2>
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Wprowadź imie..." />
+								<span class="input-group-text"><i class="bi bi-person"></i></span>
+								<input type="text" class="form-control" placeholder="Wprowadź nazwisko..." />
+							</div>
+
+							<h2 class="text-light text-center mt-3">
+								<label for="email-input" class="form-label">Wprowadź email</label>
+							</h2>
+							<div class="input-group" id="email-input">
+								<span class="input-group-text"><i class="bi bi-envelope"></i></span>
+								<input type="email" class="form-control" placeholder="Wprowadź email..." />
+							</div>
+
+							<h2 class="text-light text-center mt-3">
+								<label for="cow-kind-select" class="form-label">Wybierz gatunek krowy</label>
+							</h2>
+							<select id="cow-kind-select" class="form-select mb-3">
+								<option value="krowa holsztyno-fryzyjska" selected>krowa holsztyno-fryzyjska</option>
+								<option value="krowa simentalska">krowa simentalska</option>
+								<option value="krowa charolais">krowa charolais</option>
+								<option value="krowa szkocka wyżynna">krowa szkocka wyżynna</option>
+								<option value="krowa limousine">krowa limousine</option>
+								<option value="krowa czerwona polska">krowa czerwona polska</option>
+								<option value="krowa Aberdeen angus">krowa Aberdeen angus</option>
+								<option value="krowa jersey">krowa jersey</option>
+							</select>
+
+							<h2 class="text-light text-center mt-2">Wybierz płeć</h2>
+
+							<div class="col-md-4 col-2 d-flex justify-content-center">
+								<div class="form-check form-check-inline">
+									<input
+										class="form-check-input radio-green"
+										type="radio"
+										id="male-radio"
+										value="male"
+										name="genter-select"
+									/>
+									<label class="form-check-label text-light text-center" for="male-radio"
+										>Byk <i class="bi bi-gender-male"></i
+									></label>
+								</div>
+							</div>
+							<div class="col-2 mx-5 mx-md-0"></div>
+							<div class="col-md-4 col-2 d-flex justify-content-center ">
+								<div class="form-check form-check-inline">
+									<input
+										class="form-check-input radio-green"
+										type="radio"
+										id="female-radio"
+										value="female"
+										name="genter-select"
+									/>
+									<label class="form-check-label text-light text-center" for="female-radio"
+										>Krowa <i class="bi bi-gender-female"></i
+									></label>
+								</div>
+							</div>
+
+							<button type="submit" class="btn btn-success mt-3">Zatwierdź</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="why-cow" class="py-5">
+				<div class="container-lg p-lg-5 p-3 my-3">
+					<p class="display-2 text-center text-light mb-5"></i>Dlaczego krowa <i class="bi bi-question-square"></i></p>
+					<div class="row">
+						<div class="col">
+							<!-- ? Why cow accordion -bootstrap -->
+							<div class="accordion" id="why-cow-accordion">
+								<div class="accordion-item bg-dark">
+									<h2 class="accordion-header" id="why-cow-accordion-header-1">
+										<button
+											class="accordion-button bg-dark border border-light text-light"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseOne"
+											aria-expanded="true"
+											aria-controls="collapseOne"
+										>
+											Krowa daje mleko
+										</button>
+									</h2>
+									<div
+										id="collapseOne"
+										class="accordion-collapse collapse show"
+										aria-labelledby="why-cow-accordion-header-1"
+										data-bs-parent="#why-cow-accordion"
+									>
+										<div class="accordion-body text-light border border-light">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nihil, impedit
+											quidem similique tempore pariatur iste soluta sapiente, exercitationem
+											temporibus harum in eius, laboriosam hic delectus perspiciatis fugit dicta
+											voluptatibus. Placeat quod voluptates quae reprehenderit deleniti, esse
+											doloribus quas expedita ex modi a porro, tenetur ad fuga consequatur
+											necessitatibus eos. Nulla, magni? Vero at harum nesciunt autem, rerum nobis
+											amet? Veniam ipsa provident enim totam dolor placeat excepturi autem,
+											nesciunt ut ex suscipit alias dignissimos sint commodi accusantium minima
+											natus porro? Nobis tenetur vitae dolorum error. Provident in ex porro.
+											Voluptate aliquid neque illo provident voluptatem velit ab sequi facere
+											itaque voluptas. Nesciunt expedita omnis ipsa vero autem rerum voluptas
+											fugit exercitationem quis quisquam qui veritatis laboriosam, delectus
+											deserunt numquam?
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item bg-dark">
+									<h2 class="accordion-header" id="why-cow-accordion-header-2">
+										<button
+											class="accordion-button collapsed bg-dark border border-light text-light"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseTwo"
+											aria-expanded="false"
+											aria-controls="collapseTwo"
+										>
+											Krowe można zjeść
+										</button>
+									</h2>
+									<div
+										id="collapseTwo"
+										class="accordion-collapse collapse"
+										aria-labelledby="why-cow-accordion-header-2"
+										data-bs-parent="#why-cow-accordion"
+									>
+										<div class="accordion-body text-light border border-light">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nihil, impedit
+											quidem similique tempore pariatur iste soluta sapiente, exercitationem
+											temporibus harum in eius, laboriosam hic delectus perspiciatis fugit dicta
+											voluptatibus. Placeat quod voluptates quae reprehenderit deleniti, esse
+											doloribus quas expedita ex modi a porro, tenetur ad fuga consequatur
+											necessitatibus eos. Nulla, magni? Vero at harum nesciunt autem, rerum nobis
+											amet? Veniam ipsa provident enim totam dolor placeat excepturi autem,
+											nesciunt ut ex suscipit alias dignissimos sint commodi accusantium minima
+											natus porro? Nobis tenetur vitae dolorum error. Provident in ex porro.
+											Voluptate aliquid neque illo provident voluptatem velit ab sequi facere
+											itaque voluptas. Nesciunt expedita omnis ipsa vero autem rerum voluptas
+											fugit exercitationem quis quisquam qui veritatis laboriosam, delectus
+											deserunt numquam?
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item bg-dark text-light">
+									<h2 class="accordion-header" id="why-cow-accordion-header-3">
+										<button
+											class="accordion-button collapsed bg-dark border border-light text-light"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseThree"
+											aria-expanded="false"
+											aria-controls="collapseThree"
+										>
+											Krowa to świetny przyjaciel dla twojego dziecka!
+										</button>
+									</h2>
+									<div
+										id="collapseThree"
+										class="accordion-collapse collapse"
+										aria-labelledby="why-cow-accordion-header-3"
+										data-bs-parent="#why-cow-accordion"
+									>
+										<div class="accordion-body border border-light">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nihil, impedit
+											quidem similique tempore pariatur iste soluta sapiente, exercitationem
+											temporibus harum in eius, laboriosam hic delectus perspiciatis fugit dicta
+											voluptatibus. Placeat quod voluptates quae reprehenderit deleniti, esse
+											doloribus quas expedita ex modi a porro, tenetur ad fuga consequatur
+											necessitatibus eos. Nulla, magni? Vero at harum nesciunt autem, rerum nobis
+											amet? Veniam ipsa provident enim totam dolor placeat excepturi autem,
+											nesciunt ut ex suscipit alias dignissimos sint commodi accusantium minima
+											natus porro? Nobis tenetur vitae dolorum error. Provident in ex porro.
+											Voluptate aliquid neque illo provident voluptatem velit ab sequi facere
+											itaque voluptas. Nesciunt expedita omnis ipsa vero autem rerum voluptas
+											fugit exercitationem quis quisquam qui veritatis laboriosam, delectus
+											deserunt numquam?
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container-fluid">
+				<div class="w-100 p-3 border border-light text-light">
+					Created with Bootstap <i class="bi bi-bootstrap"></i>. 2022 All rights reserved
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
